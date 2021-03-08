@@ -1,0 +1,122 @@
+@use "colors";
+@use "vars";
+@use "fonts";
+
+@mixin buttonWhite {
+  width: 230px;
+  height: 50px;
+  border: 2px solid var(--white);
+  border-radius: var(--radius);
+  background-color: transparent;
+  color: var(--white);
+  padding: 5px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--light);
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  &:hover {
+    color: var(--white70);
+    border: 2px solid var(--white70);
+    box-shadow: 0 0 10px var(--white50);
+  }
+  &:active {
+    color: var(--white50);
+    border: 2px solid var(--white50);
+    box-shadow: 0 0 10px var(--white25);
+  }
+  &:disabled {
+    cursor: no-drop;
+    color: var(--white25);
+    border: 2px solid var(--white10);
+  }
+}
+
+@mixin buttonBlue {
+  @include buttonWhite;
+  max-width: 210px;
+  color: var(--second);
+  border: 2px solid var(--second);
+  box-shadow: 0 0 10px var(--light);
+  &:hover {
+    color: var(--secondHouver);
+    border: 2px solid var(--secondHouver);
+    box-shadow: 0 0 10px var(--white50);
+  }
+  &:active {
+    color: var(--secondAction);
+    border: 2px solid var(--secondAction);
+    box-shadow: 0 0 10px var(--white25);
+  }
+  &:disabled {
+    cursor: no-drop;
+    opacity: 0.7;
+  }
+}
+
+@mixin input {
+  background-color: transparent;
+  min-width: 270px;
+  height: 50px;
+  border: 2px solid var(--second);
+  border-radius: var(--radius);
+  padding: 5px;
+  padding-left: 70px;
+  color: var(--second);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  cursor: pointer;
+  &:focus {
+    min-width: 300px;
+    border: 2px solid var(--secondAction);
+    border-radius: var(--radius);
+    outline: none;
+    + label {
+      color: var(--secondAction);
+    }
+  }
+  &[readonly] {
+    border: none;
+    color: var(--second);
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 0;
+    + label {
+      color: var(--second);
+    }
+  }
+}
+
+@mixin textarea {
+  background-color: transparent;
+  min-width: 270px;
+  height: 150px;
+  border: 2px solid var(--second);
+  border-radius: var(--radius);
+  padding: 5px;
+  padding-left: 70px;
+  color: var(--second);
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 16px;
+  cursor: pointer;
+  &:focus {
+    min-width: 300px;
+    border: 2px solid var(--secondAction);
+    border-radius: var(--radius);
+  }
+  &[readonly] {
+    border: none;
+    color: var(--second);
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 0;
+  }
+}

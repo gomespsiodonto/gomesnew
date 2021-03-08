@@ -1,0 +1,29 @@
+@use "mixins";
+@use "colors";
+@use "vars";
+@use "fonts";
+
+* {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  background-color: var(--first);
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.btn.btn-white {
+  @include mixins.buttonWhite;
+}
+
+.btn.btn-blue {
+  @include mixins.buttonBlue;
+}
+
+input {
+  @include mixins.input;
+  z-index: 1;
+}
+textarea {
+  @include mixins.textarea;
+}

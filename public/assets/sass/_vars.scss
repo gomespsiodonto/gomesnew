@@ -1,0 +1,30 @@
+@use "colors";
+
+$mobileWidth: 320px;
+$tableWidth: 768px;
+$desktopWidth: 1200px;
+$desktopFullWidth: 1920px;
+
+:root {
+  --radius: 25px;
+  --space: 20px;
+
+  --first: #{colors.$first};
+  --firstAction: #{colors.$firstAction};
+  --firstHouver: #{colors.$firstHouver};
+  --second: #{colors.$second};
+  --secondAction: #{colors.$secondAction};
+  --secondHouver: #{colors.$secondHouver};
+  --danger: #{colors.$danger};
+  --success: #{colors.$success};
+
+  --dark: #{colors.$dark};
+  --light: #{colors.$light};
+  --white: #{colors.$white};
+  --gray: #{colors.$gray};
+  --white10: #{colors.$white10};
+  --white25: #{colors.$white25};
+  --white50: #{colors.$white50};
+  --white70: #{colors.$white70};
+  --white90: #{colors.$white90};
+}

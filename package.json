@@ -1,0 +1,35 @@
+{
+  "name": "gomesnew",
+  "version": "1.0.0",
+  "description": "",
+  "main": "public/index.html",
+  "scripts": {
+    "sass": "sass --watch public/assets/sass/main.scss:public/assets/css/main.css",
+    "sass-build": "sass public/assets/sass/main.scss:public/assets/css/main.css --style=compressed",
+    "build": "webpack --mode=production",
+    "dev": "webpack serve --content-base public --hot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gomespsiodonto/gomesnew.git"
+  },
+  "author": "Davi Matana Promoter",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gomespsiodonto/gomesnew/issues"
+  },
+  "homepage": "https://github.com/gomespsiodonto/gomesnew#readme",
+  "devDependencies": {
+    "sass": "^1.32.8",
+    "webpack": "^5.24.2",
+    "webpack-cli": "^4.5.0",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cropperjs": "^1.5.11",
+    "date-fns": "^2.17.0",
+    "firebase": "^8.2.9",
+    "imask": "^6.0.7"
+  }
+}
