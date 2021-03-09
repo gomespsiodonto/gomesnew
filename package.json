@@ -21,15 +21,14 @@
   "homepage": "https://github.com/gomespsiodonto/gomesnew#readme",
   "devDependencies": {
     "sass": "^1.32.8",
-    "webpack": "^5.24.2",
+    "webpack": "^5.24.4",
     "webpack-cli": "^4.5.0",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
     "axios": "^0.21.1",
-    "cropperjs": "^1.5.11",
-    "date-fns": "^2.17.0",
-    "firebase": "^8.2.9",
+    "date-fns": "^2.19.0",
+    "firebase": "^8.2.10",
     "imask": "^6.0.7"
   }
 }
