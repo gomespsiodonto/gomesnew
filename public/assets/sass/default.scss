@@ -6,10 +6,35 @@
 * {
   font-family: "Poppins", sans-serif;
   font-weight: 400;
-  background-color: var(--first);
+  color: colors.$first;
   margin: 0;
   padding: 0;
+}
+
+body,
+div,
+article,
+aside,
+footer,
+header,
+main,
+nav,
+section,
+ul,
+ol,
+li,
+button,
+figure,
+picture,
+hr,
+form {
   display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 .btn.btn-white {
@@ -26,4 +51,11 @@ input {
 }
 textarea {
   @include mixins.textarea;
+}
+
+main {
+  min-height: calc(100vh - 450px);
+  @media (min-width: vars.$desktopWidth) {
+    min-height: calc(100vh - 550px);
+  }
 }
