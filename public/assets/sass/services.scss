@@ -1,0 +1,98 @@
+@use "colors";
+@use "vars";
+@use "sass:color";
+
+#services {
+  min-width: vars.$mobileWidth;
+  width: 100%;
+  align-items: center;
+  #size-services {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    h2 {
+      color: colors.$second;
+      font-size: 40px;
+      font-weight: 600;
+      margin-bottom: 30px;
+    }
+    #banners {
+      flex-direction: column;
+      .banner {
+        flex-direction: column;
+        align-items: center;
+        background-color: colors.$second;
+        border-radius: 30px;
+        width: 300px;
+        height: 540px;
+        margin-bottom: 30px;
+        justify-content: space-around;
+        h3 {
+          font-size: 30px;
+          font-weight: 600;
+          margin-top: 30px;
+          margin-bottom: 30px;
+        }
+        p {
+          font-size: 16px;
+          color: colors.$white;
+          margin-bottom: 20px;
+          padding: 20px;
+          text-align: justify;
+        }
+        button {
+          margin-bottom: 30px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: vars.$tableWidth) {
+  #services {
+    #size-services {
+      #banners {
+        flex-direction: column;
+        .banner {
+          width: 480px;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: vars.$desktopWidth) {
+  #services {
+    width: 100%;
+    margin-top: 60px;
+    justify-content: center;
+    margin-bottom: 60px;
+    #size-services {
+      max-width: vars.$desktopWidth;
+      width: 100%;
+      h2 {
+        font-size: 60px;
+        margin-bottom: 60px;
+      }
+      #banners {
+        flex-direction: row;
+        .banner {
+          width: 480px;
+          h3 {
+            font-size: 40px;
+          }
+          p {
+            font-size: 16px;
+            padding: 40px;
+          }
+          button {
+            margin-bottom: 30px;
+          }
+        }
+        .banner + .banner {
+          margin-left: 50px;
+        }
+      }
+    }
+  }
+}

@@ -5,14 +5,14 @@
 @mixin buttonWhite {
   width: 230px;
   height: 50px;
-  border: 2px solid var(--white);
-  border-radius: var(--radius);
+  border: 2px solid colors.$white;
+  border-radius: vars.$radius;
   background-color: transparent;
-  color: var(--white);
+  color: colors.$white;
   padding: 5px;
   outline: none;
   cursor: pointer;
-  box-shadow: 0 0 10px var(--light);
+  box-shadow: 0 0 10px colors.$light;
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   font-size: 20px;
@@ -20,37 +20,37 @@
   justify-content: center;
   align-items: center;
   &:hover {
-    color: var(--white70);
-    border: 2px solid var(--white70);
-    box-shadow: 0 0 10px var(--white50);
+    color: colors.$white70;
+    border: 2px solid colors.$white70;
+    box-shadow: 0 0 10px colors.$white50;
   }
   &:active {
-    color: var(--white50);
-    border: 2px solid var(--white50);
-    box-shadow: 0 0 10px var(--white25);
+    color: colors.$white50;
+    border: 2px solid colors.$white50;
+    box-shadow: 0 0 10px colors.$white25;
   }
   &:disabled {
     cursor: no-drop;
-    color: var(--white25);
-    border: 2px solid var(--white10);
+    color: colors.$white25;
+    border: 2px solid colors.$white10;
   }
 }
 
 @mixin buttonBlue {
   @include buttonWhite;
   max-width: 210px;
-  color: var(--second);
-  border: 2px solid var(--second);
-  box-shadow: 0 0 10px var(--light);
+  color: colors.$second;
+  border: 2px solid colors.$second;
+  box-shadow: 0 0 10px colors.$light;
   &:hover {
-    color: var(--secondHouver);
-    border: 2px solid var(--secondHouver);
-    box-shadow: 0 0 10px var(--white50);
+    color: colors.$secondHouver;
+    border: 2px solid colors.$secondHouver;
+    box-shadow: 0 0 10px colors.$white50;
   }
   &:active {
-    color: var(--secondAction);
-    border: 2px solid var(--secondAction);
-    box-shadow: 0 0 10px var(--white25);
+    color: colors.$secondAction;
+    border: 2px solid colors.$secondAction;
+    box-shadow: 0 0 10px colors.$white25;
   }
   &:disabled {
     cursor: no-drop;
@@ -62,34 +62,37 @@
   background-color: transparent;
   min-width: 270px;
   height: 50px;
-  border: 2px solid var(--second);
-  border-radius: var(--radius);
-  padding: 5px;
-  padding-left: 70px;
-  color: var(--second);
-  font-family: "Poppins", sans-serif;
+  border: 2px solid colors.$second;
+  border-radius: vars.$radius;
+  padding-top: 15px;
+  padding-left: 30px;
+  color: colors.$second;
   font-weight: 400;
-  font-style: italic;
   font-size: 16px;
   cursor: pointer;
+  position: relative;
+  + label {
+    color: colors.$second;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: colors.$first;
+  }
   &:focus {
-    min-width: 300px;
-    border: 2px solid var(--secondAction);
-    border-radius: var(--radius);
+    min-width: 270px;
+    border: 2px solid colors.$secondHouver;
+    border-radius: vars.$radius;
     outline: none;
-    + label {
-      color: var(--secondAction);
-    }
   }
   &[readonly] {
     border: none;
-    color: var(--second);
+    color: colors.$second;
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 0;
-    + label {
-      color: var(--second);
-    }
   }
 }
 
@@ -97,24 +100,34 @@
   background-color: transparent;
   min-width: 270px;
   height: 150px;
-  border: 2px solid var(--second);
-  border-radius: var(--radius);
-  padding: 5px;
-  padding-left: 70px;
-  color: var(--second);
-  font-family: "Poppins", sans-serif;
+  border: 2px solid colors.$second;
+  border-radius: vars.$radius;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: colors.$second;
   font-weight: 400;
-  font-style: italic;
   font-size: 16px;
   cursor: pointer;
+  position: relative;
+  + label {
+    color: colors.$second;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: colors.$first;
+  }
   &:focus {
-    min-width: 300px;
-    border: 2px solid var(--secondAction);
-    border-radius: var(--radius);
+    min-width: 270px;
+    border: 2px solid colors.$secondHouver;
+    border-radius: vars.$radius;
+    outline: none;
   }
   &[readonly] {
     border: none;
-    color: var(--second);
+    color: colors.$second;
     font-weight: 400;
     font-size: 16px;
     padding-bottom: 0;

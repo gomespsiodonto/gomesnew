@@ -215,11 +215,169 @@
       </section>
     </header>
     <main>
-      <section id="about"></section>
-      <section id="services"></section>
-      <section id="contact"></section>
+      <section id="about">
+        <div id="size-about">
+          <div id="photos-about">
+            <img
+              src="./assets/img/png/photo.png"
+              alt="Foto Ana e Brenda"
+              width="675"
+              height="410"
+            />
+          </div>
+          <div id="content-about">
+            <h1><span>Sobre</span> Nós</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
+              voluptas veniam. Labore consequatur suscipit saepe velit ea,
+              nostrum odio? Inventore dolorum eveniet id aperiam expedita
+              facere, in sed laudantium voluptates?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
+              facilis facere quos qui voluptatum omnis hic nisi distinctio
+              reiciendis, ullam, porro quasi sed suscipit placeat eum ea
+              necessitatibus quisquam animi.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="services">
+        <div id="size-services">
+          <h2>Nossos Serviços</h2>
+          <div id="banners">
+            <div class="banner">
+              <h3>Lorem ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
+                animi enim odio incidunt voluptatum quisquam reprehenderit!
+                Dolore, officiis ratione? Quos rerum eos ratione, cupiditate
+                iure praesentium unde maxime suscipit quo.
+              </p>
+              <button class="btn btn-white">Saiba mais</button>
+            </div>
+            <div class="banner">
+              <h3>Lorem ipsum</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
+                animi enim odio incidunt voluptatum quisquam reprehenderit!
+                Dolore, officiis ratione? Quos rerum eos ratione, cupiditate
+                iure praesentium unde maxime suscipit quo.
+              </p>
+              <button class="btn btn-white">Saiba mais</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="contact">
+        <div id="size-contact">
+          <div id="text-contact">
+            <h2>Vamos conversar!</h2>
+            <p>
+              Envie uma mensagem para nós, vamos adorar trocar uma ideia e poder
+              te ajudar!!!
+            </p>
+          </div>
+          <form id="form-contact" onsubmit="formContact">
+            <div class="field">
+              <input type="text" name="nameFull" required />
+              <label for="nameFull">Nome Completo:</label>
+            </div>
+            <div class="double">
+              <div class="field">
+                <input type="tel" name="whatsapp" required />
+                <label for="whatsapp">Telefone:</label>
+              </div>
+              <div class="field">
+                <input type="email" name="email" required />
+                <label for="email">E-mail:</label>
+              </div>
+            </div>
+            <div class="field">
+              <textarea name="message"></textarea>
+              <label for="nmessage">Nome Completo:</label>
+            </div>
+            <button type="submit" class="btn btn-blue">Enviar</button>
+          </form>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer id="footer">
+      <div id="size-footer">
+        <div id="social-footer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 30.13 30.13"
+            fill="#000"
+            width="32"
+            heigth="32"
+          >
+            <g id="Camada_2" data-name="Camada 2">
+              <g id="Camada_1-2" data-name="Camada 1">
+                <path
+                  class="cls-1"
+                  d="M22.6,0H7.53A7.55,7.55,0,0,0,0,7.53V22.6a7.55,7.55,0,0,0,7.53,7.53H22.6a7.55,7.55,0,0,0,7.53-7.53V7.53A7.55,7.55,0,0,0,22.6,0Zm5,22.6a5,5,0,0,1-5,5H7.53a5,5,0,0,1-5-5V7.53a5,5,0,0,1,5-5H22.6a5,5,0,0,1,5,5Z"
+                />
+                <circle class="cls-1" cx="23.22" cy="6.9" r="1.88" />
+                <path
+                  class="cls-1"
+                  d="M15.06,7.53a7.54,7.54,0,1,0,7.54,7.53A7.53,7.53,0,0,0,15.06,7.53Zm0,12.56a5,5,0,1,1,5-5A5,5,0,0,1,15.06,20.09Z"
+                />
+              </g>
+            </g>
+          </svg>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 30.38 30.38"
+            fill="#000"
+            width="32"
+            heigth="32"
+          >
+            <g id="Camada_2" data-name="Camada 2">
+              <g id="Camada_1-2" data-name="Camada 1">
+                <path
+                  class="cls-1"
+                  d="M27.85,0H2.53A2.54,2.54,0,0,0,0,2.53V27.85a2.54,2.54,0,0,0,2.53,2.53H27.85a2.54,2.54,0,0,0,2.53-2.53V2.53A2.54,2.54,0,0,0,27.85,0Zm0,27.85H2.53V2.53H27.85Z"
+                />
+                <rect
+                  class="cls-1"
+                  x="7.6"
+                  y="12.66"
+                  width="2.53"
+                  height="10.13"
+                />
+                <circle class="cls-1" cx="8.86" cy="9.49" r="1.9" />
+                <path
+                  class="cls-1"
+                  d="M17.72,12.66a5.08,5.08,0,0,0-2.53.7v-.6H12.66v10h2.53V17.72a2.54,2.54,0,0,1,5.07,0v5.07h2.53V17.72A5.07,5.07,0,0,0,17.72,12.66Z"
+                />
+              </g>
+            </g>
+          </svg>
+        </div>
+        <div id="logo-footer">
+          <a href="./">
+            <div>
+              <p>Gomes</p>
+              <span>Espaço Multi-Diciplinar</span>
+            </div>
+          </a>
+        </div>
+        <div id="links-footer">
+          <ul>
+            <li>
+              <a href="./#about">Sobre nós</a>
+            </li>
+            <li>
+              <a href="./#services">Serviços</a>
+            </li>
+            <li>
+              <a href="./#contact">Contato</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
     <script src="./bundle.js"></script>
   </body>
 </html>

@@ -33,6 +33,14 @@ form {
   padding: 0;
 }
 
+body {
+  flex-direction: column;
+  width: 100%;
+  main {
+    flex-direction: column;
+  }
+}
+
 a {
   text-decoration: none;
 }
@@ -54,8 +62,11 @@ textarea {
 }
 
 main {
-  min-height: calc(100vh - 450px);
+  min-height: calc(100vh - 800px);
+  @media (min-width: vars.$tableWidth) {
+    min-height: calc(100vh - 650px);
+  }
   @media (min-width: vars.$desktopWidth) {
-    min-height: calc(100vh - 550px);
+    min-height: calc(100vh - 720px);
   }
 }

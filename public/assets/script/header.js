@@ -11,13 +11,13 @@ document.querySelectorAll("#app").forEach((page) => {
   }
 
   if (close) {
-    close.addEventListener("click", (r) => {
+    close.addEventListener("click", (e) => {
       header.classList.remove("open");
     });
   }
 
   if (overlay) {
-    overlay.addEventListener("click", (o) => {
+    overlay.addEventListener("click", (e) => {
       header.classList.remove("open");
     });
   }

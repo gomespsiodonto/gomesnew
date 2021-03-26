@@ -1,0 +1,112 @@
+@use "colors";
+@use "vars";
+@use "sass:color";
+
+#contact {
+  background-color: colors.$first;
+  min-width: vars.$mobileWidth;
+  width: 100%;
+  align-items: center;
+  #size-contact {
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    #text-contact {
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 30px;
+      h2 {
+        font-size: 30px;
+        font-weight: 600;
+        font-style: italic;
+        color: colors.$second;
+        margin-bottom: 20px;
+      }
+      p {
+        font-size: 16px;
+        font-style: italic;
+        color: colors.$dark;
+        text-align: center;
+      }
+    }
+    #form-contact {
+      flex-direction: column;
+      align-items: center;
+      .double {
+        width: 100%;
+        flex-direction: column;
+      }
+      .field {
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 20px;
+      }
+    }
+  }
+}
+
+@media (min-width: vars.$tableWidth) {
+  #contact {
+    #size-contact {
+      #form-contact {
+        .field {
+          width: 100%;
+          input {
+            width: 450px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: vars.$desktopWidth) {
+  #contact {
+    justify-content: center;
+    #size-contact {
+      max-width: vars.$desktopWidth;
+      flex-direction: row;
+      margin-top: 60px;
+      margin-bottom: 60px;
+      #text-contact {
+        width: 570px;
+        margin-bottom: 0;
+        margin-right: 50px;
+        h2 {
+          font-size: 50px;
+          font-weight: 600;
+          margin-bottom: 50px;
+        }
+        p {
+          text-align: justify;
+        }
+      }
+      #form-contact {
+        flex-direction: column;
+        align-items: center;
+        .double {
+          flex-direction: row;
+          .field {
+            input {
+              width: initial;
+            }
+          }
+          .field + .field {
+            margin-left: 20px;
+          }
+        }
+        .field {
+          input {
+            width: 590px;
+          }
+          textarea {
+            width: 590px;
+          }
+        }
+      }
+    }
+  }
+}
