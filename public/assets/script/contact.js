@@ -1,5 +1,4 @@
 import IMask from "imask";
-import { sendMail } from "./nodemailer";
 
 document.querySelectorAll("#app").forEach((page) => {
   const contact = page.querySelector("#contact");
@@ -24,6 +23,5 @@ document.querySelectorAll("#app").forEach((page) => {
     data.push({ message: message.value });
 
     console.log(data);
-    sendMail(data);
   });
 });
