@@ -9,7 +9,6 @@ document.querySelectorAll("#app").forEach((page) => {
   let email = form.querySelector('[name="email"]');
   let message = form.querySelector('[name="message"]');
   const btnSubmit = form.querySelector('[type="submit"]');
-  let data = [];
 
   new IMask(phone, {
     mask: "(00) [0]0000-0000",
@@ -17,11 +16,22 @@ document.querySelectorAll("#app").forEach((page) => {
 
   btnSubmit.addEventListener("click", (e) => {
     e.preventDefault();
-    data.push({ nameFull: nameFull.value });
-    data.push({ phone: phone.value });
-    data.push({ email: email.value });
-    data.push({ message: message.value });
+    const res = fetch("../../../api/mailer", {
+      body: JSON.stringify({
+        nameFull: nameFull.value,
+        email: email.value,
+        phone: phone.value,
+        message: message.value,
+      }),
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+        "Access-Control-Allow-Origin": "*",
+      },
+      method: "POST",
+    });
 
-    console.log(data);
+    const result = res.json();
+    alert(result.message);
   });
 });

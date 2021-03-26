@@ -28,7 +28,9 @@
   "dependencies": {
     "axios": "^0.21.1",
     "date-fns": "^2.19.0",
+    "dotenv": "^8.2.0",
     "firebase": "^8.2.10",
+    "googleapis": "^68.0.0",
     "imask": "^6.0.7",
     "nodemailer": "^6.5.0"
   }
