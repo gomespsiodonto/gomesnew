@@ -1,17 +1,9 @@
-require("dotenv/config");
-const nodemailer = require("nodemailer");
-const { google } = require("googleapis");
-// id do cliente: 412357641183-sc6qsn3j5v6h9m62tme84e2d4qss4i4o.apps.googleusercontent.com
-
-//chave secreta: FPZ4P3f6-SXUAdm72VaoJs1D
-
-//Refresh token: 1//04oCNIwKeScYDCgYIARAAGAQSNwF-L9Irly5jCheWghPmMZHak-ZlZ-Zclim0nzED84TA9WtC-LQNWrdpImsrU-Rt4JH1JGRQcbU
-
-//OAuth2 Authentication
+import nodemailer from "nodemailer";
+import { google } from "googleapis";
 
 export default (req, res) => {
   const clientId = process.env.CLIENT_ID;
-  const clientSecret = process.env.CLINT_SECRET;
+  const clientSecret = process.env.CLIENT_SECRET;
   const refreshToken = process.env.REFRESH_TOKEN;
   const redirectURI = process.env.REDIRECT_URI;
   const OAuth2 = google.auth.OAuth2;
@@ -19,7 +11,7 @@ export default (req, res) => {
   const oauth2Client = new OAuth2(clientID, secretKey, redirectURI);
 
   oauth2Client.setCredentials({
-    refresh_token,
+    refreshToken,
   });
 
   const accessToken = oauth2Client.getAccessToken();

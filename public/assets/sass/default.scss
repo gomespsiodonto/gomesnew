@@ -60,6 +60,9 @@ input {
 textarea {
   @include mixins.textarea;
 }
+select {
+  @include mixins.select;
+}
 
 main {
   min-height: calc(100vh - 800px);
@@ -68,5 +71,17 @@ main {
   }
   @media (min-width: vars.$desktopWidth) {
     min-height: calc(100vh - 720px);
+  }
+}
+
+#error404 {
+  main {
+    min-height: calc(100vh - 500px);
+    @media (min-width: vars.$tableWidth) {
+      min-height: calc(100vh - 350px);
+    }
+    @media (min-width: vars.$desktopWidth) {
+      min-height: calc(100vh - 300px);
+    }
   }
 }

@@ -227,18 +227,8 @@
           </div>
           <div id="content-about">
             <h1><span>Sobre</span> Nós</h1>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quae,
-              voluptas veniam. Labore consequatur suscipit saepe velit ea,
-              nostrum odio? Inventore dolorum eveniet id aperiam expedita
-              facere, in sed laudantium voluptates?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error
-              facilis facere quos qui voluptatum omnis hic nisi distinctio
-              reiciendis, ullam, porro quasi sed suscipit placeat eum ea
-              necessitatibus quisquam animi.
-            </p>
+            <p>Espaço multidisciplinar Odontologia e Psicologia</p>
+            <p>Atendimento Especializado...</p>
           </div>
         </div>
       </section>
@@ -247,22 +237,18 @@
           <h2>Nossos Serviços</h2>
           <div id="banners">
             <div class="banner">
-              <h3>Lorem ipsum</h3>
+              <h3>Ana Gomes</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-                animi enim odio incidunt voluptatum quisquam reprehenderit!
-                Dolore, officiis ratione? Quos rerum eos ratione, cupiditate
-                iure praesentium unde maxime suscipit quo.
+                Especialista em Ortodontia(AGOR). Clínicageral e aparelhos
+                ortodônyicos.
               </p>
               <button class="btn btn-white">Saiba mais</button>
             </div>
             <div class="banner">
-              <h3>Lorem ipsum</h3>
+              <h3>Brenda Gomes</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe
-                animi enim odio incidunt voluptatum quisquam reprehenderit!
-                Dolore, officiis ratione? Quos rerum eos ratione, cupiditate
-                iure praesentium unde maxime suscipit quo.
+                Especialista em Psicologia Clínica Sistemica (CEFI). Atendimento
+                indívidual, de casal e famílias.
               </p>
               <button class="btn btn-white">Saiba mais</button>
             </div>
@@ -278,7 +264,18 @@
               te ajudar!!!
             </p>
           </div>
-          <form id="form-contact" onsubmit="formContact">
+          <form id="form-contact" onSubmit="formContact">
+            <div class="field">
+              <select name="email-profile" id="professional" required>
+                <option value="anaclarissagomes@gmail.com">
+                  Ana (Odontologia)
+                </option>
+                <option value="brendapsicogomes@gmail.com">
+                  Brenda (Psicologia)
+                </option>
+              </select>
+              <label for="email-profile">Profissional:</label>
+            </div>
             <div class="field">
               <input type="text" name="nameFull" required />
               <label for="nameFull">Nome Completo:</label>
@@ -295,7 +292,7 @@
             </div>
             <div class="field">
               <textarea name="message"></textarea>
-              <label for="nmessage">Nome Completo:</label>
+              <label for="nmessage">Mensagem:</label>
             </div>
             <button type="submit" class="btn btn-blue">Enviar</button>
           </form>

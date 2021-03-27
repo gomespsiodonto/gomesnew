@@ -133,3 +133,41 @@
     padding-bottom: 0;
   }
 }
+
+@mixin select {
+  background-color: transparent;
+  min-width: 270px;
+  height: 80px;
+  border: 2px solid colors.$second;
+  border-radius: vars.$radius;
+  padding-top: 15px;
+  padding-left: 30px;
+  color: colors.$second;
+  font-weight: 400;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  + label {
+    color: colors.$second;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 16px;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 30px;
+    background-color: colors.$first;
+  }
+  &:focus {
+    min-width: 270px;
+    border: 2px solid colors.$secondHouver;
+    border-radius: vars.$radius;
+    outline: none;
+  }
+  &[readonly] {
+    border: none;
+    color: colors.$second;
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 0;
+  }
+}

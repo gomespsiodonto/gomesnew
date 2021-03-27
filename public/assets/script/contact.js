@@ -1,13 +1,18 @@
 import IMask from "imask";
 
+let nameFull;
+let phone;
+let email;
+let message;
+
 document.querySelectorAll("#app").forEach((page) => {
   const contact = page.querySelector("#contact");
   const form = contact.querySelector("#form-contact");
 
-  let nameFull = form.querySelector('[name="nameFull"]');
-  let phone = form.querySelector('[name="whatsapp"]');
-  let email = form.querySelector('[name="email"]');
-  let message = form.querySelector('[name="message"]');
+  nameFull = form.querySelector('[name="nameFull"]');
+  phone = form.querySelector('[name="whatsapp"]');
+  email = form.querySelector('[name="email"]');
+  message = form.querySelector('[name="message"]');
   const btnSubmit = form.querySelector('[type="submit"]');
 
   new IMask(phone, {
@@ -16,7 +21,13 @@ document.querySelectorAll("#app").forEach((page) => {
 
   btnSubmit.addEventListener("click", (e) => {
     e.preventDefault();
-    const res = fetch("../../../api/mailer", {
+    index();
+  });
+});
+
+export default function index() {
+  const formContact = async function (e) {
+    const res = await fetch("api/mailer", {
       body: JSON.stringify({
         nameFull: nameFull.value,
         email: email.value,
@@ -31,7 +42,9 @@ document.querySelectorAll("#app").forEach((page) => {
       method: "POST",
     });
 
-    const result = res.json();
+    console.log(res.json());
+    const result = await res.json();
     alert(result.message);
-  });
-});
+  };
+  return formContact();
+}
