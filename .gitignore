@@ -1,3 +1,4 @@
 node_modules/
 public/assets/script/nodemailer.js
 .env
+client_secret.json
