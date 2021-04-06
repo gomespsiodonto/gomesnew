@@ -1,0 +1,1920 @@
+$ npm run dev
+
+> gomesnew@1.0.0 dev
+> webpack serve --content-base public --hot
+
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from public
+× ｢wdm｣: asset bundle.js 41.8 MiB [emitted] (name: main)
+827 modules
+
+ERROR in ./node_modules/buffer-equal-constant-time/index.js 3:13-37
+Module not found: Error: Can't resolve 'buffer' in 'D:\gomesNew\node_modules\buffer-equal-constant-time'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "buffer": require.resolve("buffer/") }'
+        - install 'buffer'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "buffer": false }
+ @ ./node_modules/jwa/index.js 1:18-55
+ @ ./node_modules/jws/lib/sign-stream.js 4:10-24
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/dotenv/lib/main.js 24:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\dotenv\lib'
+ @ ./node_modules/dotenv/config.js 4:2-30
+ @ ./public/assets/script/contact.js 3:0-24
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/dotenv/lib/main.js 25:13-28
+Module not found: Error: Can't resolve 'path' in 'D:\gomesNew\node_modules\dotenv\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+        - install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "path": false }
+ @ ./node_modules/dotenv/config.js 4:2-30
+ @ ./public/assets/script/contact.js 3:0-24
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/google-p12-pem/build/src/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\google-p12-pem\build\src'
+ @ ./node_modules/gtoken/build/src/index.js 127:65-90
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/google-p12-pem/build/src/index.js 12:15-30
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\google-p12-pem\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/gtoken/build/src/index.js 127:65-90
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/apirequest.js 18:15-32
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/googleapis-common/build/src/index.js 31:19-42
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/discovery.js 16:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+ @ ./node_modules/googleapis-common/build/src/index.js 35:18-40
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/discovery.js 19:13-28
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/googleapis-common/build/src/index.js 35:18-40
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/http2.js 16:14-30
+Module not found: Error: Can't resolve 'http2' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+Did you mean './http2'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+ @ ./node_modules/googleapis-common/build/src/apirequest.js 23:11-29
+ @ ./node_modules/googleapis-common/build/src/index.js 31:19-42
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/http2.js 17:13-28
+Module not found: Error: Can't resolve 'zlib' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "zlib": require.resolve("browserify-zlib") }'
+        - install 'browserify-zlib'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "zlib": false }
+ @ ./node_modules/googleapis-common/build/src/apirequest.js 23:11-29
+ @ ./node_modules/googleapis-common/build/src/index.js 31:19-42
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/http2.js 21:17-34
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/googleapis-common/build/src/apirequest.js 23:11-29
+ @ ./node_modules/googleapis-common/build/src/index.js 31:19-42
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/http2.js 22:13-28
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/googleapis-common/build/src/apirequest.js 23:11-29
+ @ ./node_modules/googleapis-common/build/src/index.js 31:19-42
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/http2.js 23:16-34
+Module not found: Error: Can't resolve 'process' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "process": require.resolve("process/browser") }'
+        - install 'process'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "process": false }
+ @ ./node_modules/googleapis-common/build/src/apirequest.js 23:11-29
+ @ ./node_modules/googleapis-common/build/src/index.js 31:19-42
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/baseexternalclient.js 17:15-32
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 44:27-63
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 17:24-48
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 20:11-24
+Module not found: Error: Can't resolve 'os' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+        - install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "os": false }
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 21:13-28
+Module not found: Error: Can't resolve 'path' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+        - install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "path": false }
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 19:15-30
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/oauth2client.js 18:15-32
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 31:21-51
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/crypto/node/crypto.js 17:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\crypto\node'
+Did you mean './crypto'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/crypto/crypto.js 19:17-41
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 22:17-44
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/baseexternalclient.js 17:15-32
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 44:27-63
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 17:24-48
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 20:11-24
+Module not found: Error: Can't resolve 'os' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+        - install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "os": false }
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 21:13-28
+Module not found: Error: Can't resolve 'path' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+        - install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "path": false }
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 19:15-30
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/oauth2client.js 18:15-32
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 31:21-51
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/crypto/node/crypto.js 17:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\crypto\node'
+Did you mean './crypto'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/crypto/crypto.js 19:17-41
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 22:17-44
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/gtoken/build/src/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\gtoken\build\src'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/gtoken/build/src/index.js 13:13-28
+Module not found: Error: Can't resolve 'path' in 'D:\gomesNew\node_modules\gtoken\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+        - install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "path": false }
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/gtoken/build/src/index.js 14:15-30
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\gtoken\build\src'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 15:30-44
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 16:30-44
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 18:33-50
+Module not found: Error: Can't resolve 'assert' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "assert": require.resolve("assert/") }'
+        - install 'assert'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "assert": false }
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jwa/index.js 3:13-30
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\jwa'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/jws/lib/sign-stream.js 4:10-24
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jwa/index.js 5:11-26
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\jwa'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/jws/lib/sign-stream.js 4:10-24
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jws/lib/data-stream.js 3:13-30
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/jws/lib/sign-stream.js 3:17-41
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jws/lib/data-stream.js 4:11-26
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/jws/lib/sign-stream.js 3:17-41
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jws/lib/sign-stream.js 5:13-30
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jws/lib/sign-stream.js 7:11-26
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jws/lib/tostring.js 2:13-37
+Module not found: Error: Can't resolve 'buffer' in 'D:\gomesNew\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "buffer": require.resolve("buffer/") }'
+        - install 'buffer'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "buffer": false }
+ @ ./node_modules/jws/lib/sign-stream.js 6:15-36
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jws/lib/verify-stream.js 5:13-30
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/jws/index.js 3:19-49
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/jws/lib/verify-stream.js 7:11-26
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\jws\lib'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/jws/index.js 3:19-49
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/base64/index.js 3:18-45
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\base64'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/mime-funcs/index.js 5:15-35
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 5:18-42
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/index.js 9:20-49
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/index.js 11:13-28
+Module not found: Error: Can't resolve 'path' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+        - install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "path": false }
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/index.js 12:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/message-parser.js 3:18-45
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/dkim/index.js 6:22-49
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/relaxed-body.js 5:18-45
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/dkim/index.js 7:20-45
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/relaxed-body.js 6:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/nodemailer/lib/dkim/index.js 7:20-45
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/sign.js 5:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/nodemailer/lib/dkim/index.js 8:13-30
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/fetch/index.js 3:13-28
+Module not found: Error: Can't resolve 'http' in 'D:\gomesNew\node_modules\nodemailer\lib\fetch'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "http": require.resolve("stream-http") }'
+        - install 'stream-http'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "http": false }
+ @ ./node_modules/nodemailer/lib/nodemailer.js 11:14-32
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/fetch/index.js 4:14-30
+Module not found: Error: Can't resolve 'https' in 'D:\gomesNew\node_modules\nodemailer\lib\fetch'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "https": require.resolve("https-browserify") }'
+        - install 'https-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "https": false }
+ @ ./node_modules/nodemailer/lib/nodemailer.js 11:14-32
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/fetch/index.js 6:13-28
+Module not found: Error: Can't resolve 'zlib' in 'D:\gomesNew\node_modules\nodemailer\lib\fetch'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "zlib": require.resolve("browserify-zlib") }'
+        - install 'browserify-zlib'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "zlib": false }
+ @ ./node_modules/nodemailer/lib/nodemailer.js 11:14-32
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/fetch/index.js 7:20-49
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\fetch'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/nodemailer.js 11:14-32
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 9:13-28
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 13:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 14:12-26
+Module not found: Error: Can't resolve 'dns' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 15:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-funcs/mime-types.js 5:13-28
+Module not found: Error: Can't resolve 'path' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-funcs'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "path": require.resolve("path-browserify") }'
+        - install 'path-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "path": false }
+ @ ./node_modules/nodemailer/lib/mailer/index.js 5:18-53
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-node/index.js 5:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-node'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 4:17-40
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-node/index.js 6:11-24
+Module not found: Error: Can't resolve 'os' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-node'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+        - install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "os": false }
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 4:17-40
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-node/index.js 7:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-node'
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 4:17-40
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-node/index.js 9:20-49
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-node'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 4:17-40
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-node/last-newline.js 3:18-45
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-node'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/mime-node/index.js 17:20-45
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 4:17-40
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/qp/index.js 3:18-45
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\qp'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/mime-funcs/index.js 6:11-27
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 5:18-42
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/sendmail-transport/index.js 3:14-44
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\nodemailer\lib\sendmail-transport'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 7:26-57
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/sendmail-transport/le-unix.js 3:15-32
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\sendmail-transport'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/sendmail-transport/index.js 6:15-35
+ @ ./node_modules/nodemailer/lib/nodemailer.js 7:26-57
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/sendmail-transport/le-windows.js 3:15-32
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\sendmail-transport'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/sendmail-transport/index.js 5:18-41
+ @ ./node_modules/nodemailer/lib/nodemailer.js 7:26-57
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 6:13-28
+Module not found: Error: Can't resolve 'util' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "util": require.resolve("util/") }'
+        - install 'util'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "util": false }
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 7:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 9:12-26
+Module not found: Error: Can't resolve 'dns' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 10:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/data-stream.js 3:15-32
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/smtp-connection/index.js 9:19-43
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js 7:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 8:24-71
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js 8:12-26
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 8:24-71
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 5:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 6:12-26
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 7:11-24
+Module not found: Error: Can't resolve 'os' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "os": require.resolve("os-browserify/browser") }'
+        - install 'os-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "os": false }
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 8:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 10:20-49
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/xoauth2/index.js 3:15-39
+Module not found: Error: Can't resolve 'stream' in 'D:\gomesNew\node_modules\nodemailer\lib\xoauth2'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "stream": require.resolve("stream-browserify") }'
+        - install 'stream-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "stream": false }
+ @ ./node_modules/nodemailer/lib/smtp-transport/index.js 7:16-37
+ @ ./node_modules/nodemailer/lib/nodemailer.js 6:22-49
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/xoauth2/index.js 5:15-32
+Module not found: Error: Can't resolve 'crypto' in 'D:\gomesNew\node_modules\nodemailer\lib\xoauth2'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
+        - install 'crypto-browserify'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "crypto": false }
+ @ ./node_modules/nodemailer/lib/smtp-transport/index.js 7:16-37
+ @ ./node_modules/nodemailer/lib/nodemailer.js 6:22-49
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/safe-buffer/index.js 3:13-30
+Module not found: Error: Can't resolve 'buffer' in 'D:\gomesNew\node_modules\safe-buffer'
+
+BREAKING CHANGE: webpack < 5 used to include polyfills for node.js core modules by default.
+This is no longer the case. Verify if you need this module and configure a polyfill for it.
+
+If you want to include a polyfill, you need to:
+        - add a fallback 'resolve.fallback: { "buffer": require.resolve("buffer/") }'
+        - install 'buffer'
+If you don't want to include a polyfill, you can use an empty module like this:
+        resolve.fallback: { "buffer": false }
+ @ ./node_modules/jws/lib/sign-stream.js 2:13-42
+ @ ./node_modules/jws/index.js 2:17-45
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtaccess.js 17:12-26
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 27:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+88 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.24.4 compiled with 88 errors in 11383 ms
+i ｢wdm｣: Failed to compile.
+
+_________________________________________________________________________________________________________________
+
+$ npm run dev
+
+> gomesnew@1.0.0 dev
+> webpack serve --content-base public --hot
+
+[webpack-cli] Invalid configuration object. Webpack has been initialized using a configuration object that does not match the API schema.
+ - configuration.resolve has an unknown property 'https'. These properties are valid:
+   object { alias?, aliasFields?, byDependency?, cache?, cachePredicate?, cacheWithContext?, conditionNames?, descriptionFiles?, enforceExtension?, exportsFields?, extensions?, fallback?, fileSystem?, fullySpecified?, importsFields?, mainFields?, mainFiles?, modules?, plugins?, preferAbsolute?, preferRelative?, resolver?, restrictions?, roots?, symlinks?, unsafeCache?, useSyncFileSystemCalls? }
+   -> Options object for resolving requests.
+npm ERR! code 2
+npm ERR! path D:\gomesNew
+npm ERR! command failed
+npm ERR! command C:\Windows\system32\cmd.exe /d /s /c webpack serve --content-base public --hot
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     C:\Users\matan\AppData\Local\npm-cache\_logs\2021-03-31T18_21_29_521Z-debug.log
+
+matan@Pc-Edi□□o MINGW64 /d/gomesNew (matana)
+$ npm run dev
+
+> gomesnew@1.0.0 dev
+> webpack serve --content-base public --hot
+
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from public
+× ｢wdm｣: asset bundle.js 42.3 MiB [emitted] (name: main)
+868 modules
+
+ERROR in ./node_modules/dotenv/lib/main.js 24:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\dotenv\lib'
+ @ ./node_modules/dotenv/config.js 4:2-30
+ @ ./public/assets/script/contact.js 3:0-24
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/google-p12-pem/build/src/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\google-p12-pem\build\src'
+ @ ./node_modules/gtoken/build/src/index.js 127:65-90
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/discovery.js 16:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+ @ ./node_modules/googleapis-common/build/src/index.js 35:18-40
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/http2.js 16:14-30
+Module not found: Error: Can't resolve 'http2' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+Did you mean './http2'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+ @ ./node_modules/googleapis-common/build/src/apirequest.js 23:11-29
+ @ ./node_modules/googleapis-common/build/src/index.js 31:19-42
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 17:24-48
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 17:24-48
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/gtoken/build/src/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\gtoken\build\src'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 15:30-44
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 16:30-44
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 13:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 14:12-26
+Module not found: Error: Can't resolve 'dns' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-node/index.js 7:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-node'
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 4:17-40
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/sendmail-transport/index.js 3:14-44
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\nodemailer\lib\sendmail-transport'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 7:26-57
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 7:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 9:12-26
+Module not found: Error: Can't resolve 'dns' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 10:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js 7:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 8:24-71
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js 8:12-26
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 8:24-71
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 5:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 6:12-26
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./public/index.html 1:0
+Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> <!DOCTYPE html>
+| <html lang="pt-BR">
+|   <head>
+ @ ./node_modules/dotenv/lib/main.js 25:13-28
+ @ ./node_modules/dotenv/config.js 4:2-30
+ @ ./public/assets/script/contact.js 3:0-24
+ @ ./public/assets/script/index.js 2:0-19
+
+25 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.28.0 compiled with 26 errors in 11733 ms
+i ｢wdm｣: Failed to compile.
+
+
+________________________________________________________________________________________________________________
+
+
+$ npm run dev
+
+> gomesnew@1.0.0 dev
+> webpack serve --content-base public --hot
+
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from public
+× ｢wdm｣: asset bundle.js 42.3 MiB [emitted] (name: main)
+864 modules
+
+ERROR in ./node_modules/google-p12-pem/build/src/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\google-p12-pem\build\src'
+ @ ./node_modules/gtoken/build/src/index.js 127:65-90
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/discovery.js 16:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+ @ ./node_modules/googleapis-common/build/src/index.js 35:18-40
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/http2.js 16:14-30
+Module not found: Error: Can't resolve 'http2' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+Did you mean './http2'?
+Requests that should resolve in the current directory need to start with './'.
+Requests that start with a name are treated as module requests and resolve within module directories (node_modules).
+If changing the source code is not an option there is also a resolve options called 'preferRelative' which tries to resolve these kind of requests in the current directory too.
+ @ ./node_modules/googleapis-common/build/src/apirequest.js 23:11-29
+ @ ./node_modules/googleapis-common/build/src/index.js 31:19-42
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 17:24-48
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 17:24-48
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/gtoken/build/src/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\gtoken\build\src'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 15:30-44
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 16:30-44
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 13:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 14:12-26
+Module not found: Error: Can't resolve 'dns' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-node/index.js 7:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-node'
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 4:17-40
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/sendmail-transport/index.js 3:14-44
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\nodemailer\lib\sendmail-transport'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 7:26-57
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 7:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 9:12-26
+Module not found: Error: Can't resolve 'dns' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 10:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js 7:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 8:24-71
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js 8:12-26
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 8:24-71
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 5:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 6:12-26
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./public/index.html 1:0
+Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> <!DOCTYPE html>
+| <html lang="pt-BR">
+|   <head>
+ @ ./node_modules/nodemailer/lib/mailer/index.js 15:15-32
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+24 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.28.0 compiled with 25 errors in 14245 ms
+i ｢wdm｣: Failed to compile.
+
+
+____________________________________________________________________________________________________________________
+
+$ npm run dev
+
+> gomesnew@1.0.0 dev
+> webpack serve --content-base public --hot
+
+i ｢wds｣: Project is running at http://localhost:8080/
+i ｢wds｣: webpack output is served from /
+i ｢wds｣: Content not from webpack is served from public
+× ｢wdm｣: asset bundle.js 42.3 MiB [emitted] (name: main)
+864 modules
+
+ERROR in ./node_modules/google-p12-pem/build/src/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\google-p12-pem\build\src'
+ @ ./node_modules/gtoken/build/src/index.js 127:65-90
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/build/src/discovery.js 16:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\build\src'
+ @ ./node_modules/googleapis-common/build/src/index.js 35:18-40
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 17:24-48
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/googleauth.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis-common\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis-common/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis-common/build/src/index.js 15:28-58
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 17:24-48
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/googleauth.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 17:21-49
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/identitypoolclient.js 18:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\googleapis\node_modules\google-auth-library\build\src\auth'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 40:27-63
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/gtoken/build/src/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\gtoken\build\src'
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/auth/jwtclient.js 17:17-34
+ @ ./node_modules/googleapis/node_modules/google-auth-library/build/src/index.js 29:18-45
+ @ ./node_modules/googleapis/build/src/index.js 22:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 15:30-44
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/https-proxy-agent/dist/agent.js 16:30-44
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\https-proxy-agent\dist'
+ @ ./node_modules/https-proxy-agent/dist/index.js 5:32-50
+ @ ./node_modules/gaxios/build/src/gaxios.js 55:26-54
+ @ ./node_modules/gaxios/build/src/index.js 16:17-36
+ @ ./node_modules/googleapis-common/build/src/index.js 26:15-32
+ @ ./node_modules/googleapis/build/src/index.js 21:0-45
+ @ ./public/assets/script/contact.js 2:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/dkim/index.js 10:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\dkim'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 7:13-31
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 13:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mailer/index.js 14:12-26
+Module not found: Error: Can't resolve 'dns' in 'D:\gomesNew\node_modules\nodemailer\lib\mailer'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/mime-node/index.js 7:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\mime-node'
+ @ ./node_modules/nodemailer/lib/mailer/mail-message.js 4:17-40
+ @ ./node_modules/nodemailer/lib/mailer/index.js 12:20-45
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/sendmail-transport/index.js 3:14-44
+Module not found: Error: Can't resolve 'child_process' in 'D:\gomesNew\node_modules\nodemailer\lib\sendmail-transport'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 7:26-57
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 7:11-24
+Module not found: Error: Can't resolve 'fs' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 9:12-26
+Module not found: Error: Can't resolve 'dns' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/shared/index.js 10:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\shared'
+ @ ./node_modules/nodemailer/lib/nodemailer.js 4:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js 7:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 8:24-71
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/http-proxy-client.js 8:12-26
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/mailer/index.js 8:24-71
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 5:12-26
+Module not found: Error: Can't resolve 'net' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./node_modules/nodemailer/lib/smtp-connection/index.js 6:12-26
+Module not found: Error: Can't resolve 'tls' in 'D:\gomesNew\node_modules\nodemailer\lib\smtp-connection'
+ @ ./node_modules/nodemailer/lib/smtp-pool/index.js 5:23-52
+ @ ./node_modules/nodemailer/lib/nodemailer.js 5:17-39
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+ERROR in ./public/index.html 1:0
+Module parse failed: Unexpected token (1:0)
+You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+> <!DOCTYPE html>
+| <html lang="pt-BR">
+|   <head>
+ @ ./node_modules/nodemailer/lib/mailer/index.js 15:15-32
+ @ ./node_modules/nodemailer/lib/nodemailer.js 3:15-34
+ @ ./public/assets/script/contact.js 1:19-40
+ @ ./public/assets/script/index.js 2:0-19
+
+23 errors have detailed information that is not shown.
+Use 'stats.errorDetails: true' resp. '--stats-error-details' to show it.
+
+webpack 5.28.0 compiled with 24 errors in 12935 ms
+i ｢wdm｣: Failed to compile.
