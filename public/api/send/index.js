@@ -1,5 +1,6 @@
-import nodemailer from "nodemailer";
-import { google } from "googleapis";
+const nodemailer = require("nodemailer");
+const { google } = require("googleapis");
+require("dotenv/config");
 
 export default (req, res) => {
   const clientId = process.env.CLIENT_ID;
@@ -8,7 +9,7 @@ export default (req, res) => {
   const redirectURI = process.env.REDIRECT_URI;
   const OAuth2 = google.auth.OAuth2;
 
-  const oauth2Client = new OAuth2(clientID, secretKey, redirectURI);
+  const oauth2Client = new OAuth2(clientId, clientSecret, redirectURI);
 
   oauth2Client.setCredentials({
     refreshToken,
@@ -35,6 +36,8 @@ export default (req, res) => {
   const mailOptions = {
     from: "davimatana.promoter@gmail.com",
     to: "matananh@gmail.com",
+    replyTo: `${req.body.email}`,
+    //to: `${req.body.professional}`,
     // bcc: 'joao@hcode.com.br',
     subject: "Contato via Site: Gomes Espaço Multi-diciplinar",
     html: `
@@ -42,8 +45,9 @@ export default (req, res) => {
     <p>
     <strong>Nome:</strong> ${req.body.nameFull}<br/>
     <strong>E-mail:</strong> ${req.body.email}<br/>
-    <strong>Telefone:</strong> ${req.body.phone} <br/>
+    <strong>Telefone:</strong> ${req.body.whatsapp} <br/>
     <strong>Mensagem:</strong> ${req.body.message}<br/> 
+    <strong>Mensagem:</strong> ${req.body.professional}<br/>
     </p>
     `,
   };

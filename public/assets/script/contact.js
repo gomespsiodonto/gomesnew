@@ -1,18 +1,16 @@
 import IMask from "imask";
 
-let nameFull;
-let phone;
-let email;
-let message;
+var sendMail = firebase.functions().httpsCallable("sendMail");
 
 document.querySelectorAll("#app").forEach((page) => {
   const contact = page.querySelector("#contact");
   const form = contact.querySelector("#form-contact");
 
-  nameFull = form.querySelector('[name="nameFull"]');
-  phone = form.querySelector('[name="whatsapp"]');
-  email = form.querySelector('[name="email"]');
-  message = form.querySelector('[name="message"]');
+  let nameFull = form.querySelector('[name="nameFull"]');
+  let phone = form.querySelector('[name="phone"]');
+  let email = form.querySelector('[name="email"]');
+  let message = form.querySelector('[name="message"]');
+  let emailProfile = form.querySelector('[name="emailProfile"]');
   const btnSubmit = form.querySelector('[type="submit"]');
 
   new IMask(phone, {
@@ -20,31 +18,27 @@ document.querySelectorAll("#app").forEach((page) => {
   });
 
   btnSubmit.addEventListener("click", (e) => {
-    e.preventDefault();
-    index();
+    async () => {
+      let url =
+        "https://us-central1-estudiodocorpo.cloudfunctions.net/sendMail";
+      const res = await fetch(sendMail, {
+        body: JSON.stringify({
+          nameFull: nameFull.value,
+          email: email.value,
+          phone: phone.value,
+          message: message.value,
+          emailProfile: emailProfile.value,
+        }),
+        headers: {
+          "Content-Type": "application/json",
+          Accept: "application/json",
+          "Access-Control-Allow-Origin": "*",
+        },
+        method: "POST",
+      });
+
+      const result = await res.json();
+      alert(result.message);
+    };
   });
 });
-
-export default function index() {
-  const formContact = async function (e) {
-    const res = await fetch("api/mailer", {
-      body: JSON.stringify({
-        nameFull: nameFull.value,
-        email: email.value,
-        phone: phone.value,
-        message: message.value,
-      }),
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-        "Access-Control-Allow-Origin": "*",
-      },
-      method: "POST",
-    });
-
-    console.log(res.json());
-    const result = await res.json();
-    alert(result.message);
-  };
-  return formContact();
-}
