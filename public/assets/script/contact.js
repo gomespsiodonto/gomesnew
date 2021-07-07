@@ -19,7 +19,8 @@ document.querySelectorAll("#app").forEach((page) => {
 
   btnSubmit.addEventListener("click", (e) => {
     async () => {
-      let url = "http://localhost:5001/gomespsiodonto/us-central1/sendMail";
+      let url =
+        "https://us-central1-estudiodocorpo.cloudfunctions.net/sendMail";
       const res = await fetch(sendMail, {
         body: JSON.stringify({
           nameFull: nameFull.value,
