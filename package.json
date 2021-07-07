@@ -2,7 +2,7 @@
   "name": "gomesnew",
   "version": "1.0.0",
   "description": "",
-  "main": "public/index.html",
+  "main": "./public/index.html",
   "scripts": {
     "sass": "sass --watch public/assets/sass/main.scss:public/assets/css/main.css",
     "sass-build": "sass public/assets/sass/main.scss:public/assets/css/main.css --style=compressed",
@@ -20,18 +20,16 @@
   },
   "homepage": "https://github.com/gomespsiodonto/gomesnew#readme",
   "devDependencies": {
-    "sass": "^1.32.8",
-    "webpack": "^5.24.4",
-    "webpack-cli": "^4.5.0",
+    "sass": "^1.35.1",
+    "webpack": "^5.43.0",
+    "webpack-cli": "^4.7.2",
     "webpack-dev-server": "^3.11.2"
   },
   "dependencies": {
-    "axios": "^0.21.1",
-    "date-fns": "^2.19.0",
-    "dotenv": "^8.2.0",
-    "firebase": "^8.2.10",
+    "dotenv": "^8.6.0",
+    "firebase": "^8.7.0",
     "googleapis": "^68.0.0",
-    "imask": "^6.0.7",
-    "nodemailer": "^6.5.0"
+    "imask": "^6.1.0",
+    "nodemailer": "^6.6.2"
   }
 }
